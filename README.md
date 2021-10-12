@@ -67,7 +67,7 @@ Transitive Abhängigkeit bedeutet indirekte Abhängigkeit vom Primärschlüssel 
 Ein ERM ist eine Diagrammart, welche Datenbanken abbildet. Genauer gesagt sind in einem ERM die Beziehungen (in Rauten) der einzelnen Entitätstypen (in Rechtecken) abgebildet. Für das genauere Abbild der Datenbank werden die Kardinalitäten an den Seiten hinzugefügt. Zudem sind auch die Attribute (in ovalen) ersichtlich. Bei den Attributen wird der Primärschlüssel immer unterstrichen.
 
 #### Beispiel ERM
-![Beispiel ERM](https://github.com/JoBo33/Datenbanken/blob/main/Anwendungsscreenshots%20und%20ERM/ERM.pdf "Beispiel ERM")
+[Beispiel ERM](https://github.com/JoBo33/Datenbanken/blob/main/Anwendungsscreenshots%20und%20ERM/ERM.pdf "Beispiel ERM")
 
 Lesen kann man das Diagramm bspw. wie Folgt:  
 Ein Kunde besitzt ein oder mehrere Fahrzeuge. 
@@ -136,3 +136,6 @@ Nun werden auch transitive Abhängigkeiten beseitigt. Z. B. wird hängt das Attr
 ![3. NF](https://github.com/JoBo33/Datenbanken/blob/main/Anwendungsscreenshots%20und%20ERM/3.%20NF%20(Meister).png "3. NF Tabelle Meister")
 
 ![3. NF](https://github.com/JoBo33/Datenbanken/blob/main/Anwendungsscreenshots%20und%20ERM/3.%20NF%20(Mitarbeiter).png "3. NF Tabelle Mitarbeiter")
+
+##### SQL-Code des Anwendungsbeispiels
+[SQL-Code](https://github.com/JoBo33/Datenbanken/blob/main/Anwendungsscreenshots%20und%20ERM/Normalisierung%20einer%20Datenbank%20Beispiel%20(Code).pdf)
