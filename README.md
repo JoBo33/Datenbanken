@@ -5,8 +5,8 @@ Bevor der Weg hin zu einer Datenbank genauer dargelegt wird, werden zunächst di
 
 ##### Entität und Entitätstyp
 
-Eine Entität ist ein Objekt aus der realen Welt. Ein Entität ist in einer Datenbank eine Zeile einer Tabelle. 
-Ein Entitätstyp ist hingegen eine Zusammenfassung von vielen Entitätstypen mit gleichen Eigenschaften/Attributen. In einer Datenbank bildet jede Entität eine Tabelle ab. 
+Eine Entität ist ein Objekt aus der realen Welt. Eine Entität ist in einer Datenbank eine Zeile einer Tabelle. 
+Ein Entitätstyp ist hingegen eine Zusammenfassung von vielen Entitäten mit gleichen Eigenschaften/Attributen. In einer Datenbank bildet jeder Entitätstyp eine Tabelle ab. 
 
 ##### Relation und Relationstyp
 
@@ -14,7 +14,7 @@ Eine Relation stellt die Beziehung zwischen 2 Entitäten dar.
 Z. B. "Max arbeitet bei Autoteile AG" (Die Relation "arbeiten" stellt die Beziehung der beiden Entitäten (Max und Autoteile AG) dar).
 
 Ein Relationstyp stellt die Beziehung zwischen 2 Entitätstypen dar.
-Z. B. "Kzf-Mechatroniker arbeitet in einer Werkstatt" (Der Relationstyp "arbeiten" stellt die Beziehung der beiden Entitätstypen (Kfz-Mechatroniker und Werkstatt) dar).
+Z. B. "Ein Kzf-Mechatroniker arbeitet in einer Werkstatt" (Der Relationstyp "arbeiten" stellt die Beziehung der beiden Entitätstypen (Kfz-Mechatroniker und Werkstatt) dar).
 
 ##### Attribut
 
@@ -31,7 +31,7 @@ Folgende Arten von Kardinalitäten gibt es (Min-Max-Notation):
 
 ##### Primärschlüssel
 
-Der Primärschlüssel ist eine Eigenschaft eines Entitätstypen, welche eine Entität eindeutig identifizieren kann. 
+Der Primärschlüssel ist eine Eigenschaft eines Entitätstypen, welche eine Entität eindeutig identifizieren kann. Er kann aus einem aber auch aus mehreren Attributen bestehen. 
 
 ##### Fremdschlüssel 
 
@@ -45,9 +45,9 @@ Die Zerlegung gibt an, ob die abgebildeten Gruppen Schnittmengen miteinander hab
 #### Anomalien
 Eine Anomalie bezeichnet das Fehlverhalten einer Datenbank.
 ##### Update-Anomalie
-Das Ändern von Daten in einer Datenbank führt zu einer Uppdate-Anomalie, wenn nicht alle redundanten Vorkommen eines Attributwertes euntsprechend geändert werden. Dieses führt zu inkonsistenten Daten.
+Das Ändern von Daten in einer Datenbank führt zu einer Uppdate-Anomalie, wenn nicht alle redundanten Vorkommen eines Attributwertes entsprechend geändert werden. Dies führt zu inkonsistenten Daten.
 ##### Insert-Anomalie
-Das Einfügen von Daten in einer Datenbank führt zu einer Insert-Anomalie, wenn das neue Tupel nicht oder nur schwierig in die betroffene Relationeingefügt werden kann.
+Das Einfügen von Daten in einer Datenbank führt zu einer Insert-Anomalie, wenn das neue Tupel nicht oder nur schwierig in die betroffene Relation eingefügt werden kann.
 ##### Delete-Anomalie
 Das Löschen von Daten aus einer Datenbank führt zu einer Delete-Anomalie, wenn dadurch mehr Informationen verloren gehen als gewollt.
 
